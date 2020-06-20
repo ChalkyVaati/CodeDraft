@@ -8,53 +8,57 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body data-gr-c-s-loaded="true">
-    <header>
-      <nav>
-        <ul class="left">
+    <nav class="navbar">
+        <ul class="nav-left">
           <li><a href="#"class="about">About</a></li>
           <li><a href="#" class="store">Store</a></li>
         </ul>
 
-        <ul class="right">
+        <ul class="nav-right">
           <li><a href="#" class="gmail">Gmail</a></li>
           <li><a href="#" class="images">Images</a></li>
+          <li><a href="#">
+              <div class="icon-squares">
+                <div class="square square-1"></div>
+                <div class="square square-2"></div>
+                <div class="square square-3"></div>
+              </div>
+          </li>
+          <li><a href="#">
+            <div class="profile-circle"><span class="username-letter">VS</span></div>
+            </a>
+          </li>
         </ul>
       </nav>
-    </header>
-    <main>
-      <div class="logo">
-         <a href="https://www.qries.com/">
-         <img alt="Qries" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
-      </a>
-      </div>
-      <form>
-        <div class="search-box">
-          <input type="text" class="input">
+      <div class="container">
+
+        <div class="logo-search-wrapper">
+
+            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt=""
+                class="logo">
+            <div class="searchbar">
+                <input type="text">
+            </div>
+            <div class="search-buttons">
+                <button class="btn">Google Search</button>
+                <button class="btn">I'm Feeling Lucky</button>
+            </div>
         </div>
-        <div class="submit-box">
-          <input type="submit" value="Google Search" class="boxes">
-          <input type="submit" value="I'm Feeling Lucky" class="boxes">
-        </div>
-      </form>
-    </main>
-    <footer>
-      <nav>
-        <ul class="left2">
-          <li><a href="#" class="advertising">Advertising</a></li>
-          <li><a href="#" class="Business">Business</a></li>
-          <li><a href="#" class="howtosearch">How Search works</a></li>
+
+    </div>
+    <footer class="footer">
+        <ul class="footer-nav-left">
+            <li><a href="#">Advertising</a></li>
+            <li><a href="#">Business</a></li>
+            <li><a href="#">How Search Works</a></li>
+        </ul>
+        <ul class="footer-nav-right">
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Settings</a></li>
         </ul>
 
-        <ul class="right2">
-          <li><a href="#" class="privacy">Privacy</a></li>
-          <li><a href="#" class="terms">Terms</a></li>
-          <li><a href="#" class="settings">Settings</a></li>
-        </ul>
-      </nav>
     </footer>
+</body>
 
-       
-    <h5>Hello World</h5>
-    <script src="script.js"></script>
-  </body>
-</html>
+</html> 
